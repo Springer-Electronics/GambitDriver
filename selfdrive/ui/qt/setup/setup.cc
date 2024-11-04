@@ -107,7 +107,7 @@ QWidget * Setup::low_voltage() {
 
   inner_layout->addSpacing(25);
 
-  QLabel *body = new QLabel(tr("Power your device in a car with a harness or proceed at your own risk."));
+  QLabel *body = new QLabel(tr("It appears you are using a power supply under 12V. Proceed at your own risk."));
   body->setWordWrap(true);
   body->setAlignment(Qt::AlignTop | Qt::AlignLeft);
   body->setStyleSheet("font-size: 80px; font-weight: 300;");
